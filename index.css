@@ -22,7 +22,7 @@ html {
 }
 
 .menu .menu-list {
-  color: var(--secondary-color);
+  color: white;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -38,17 +38,17 @@ html {
   margin: 0; 
   position: fixed;
   top: 46px;
-  background-color: var(--primary-color);
+  background-color: black;
   width: 100%;
   display: none;
 }
 
 .mobile-list-item a{
   text-decoration: none;
-  color: var(--secondary-color);
+  color: white;
   text-transform: uppercase;
-  height: var(--header-height);
-  line-height: var(--header-height);
+  height: 46px;
+  line-height: 46px;
   padding: 0 24px;
   display: block;
 }
@@ -62,16 +62,16 @@ html {
 .mobile-home a {
   margin-left: 24px;
   font-size: 15px;
-  color: var(--secondary-color);
+  color: white;
   text-transform: uppercase; 
   text-decoration: none;
-  color: var(--secondary-color);
+  color: white;
   display: block;
 }
 
 .mobile-menu-icon {
   margin-left: auto;
-  color: var(--secondary-color);
+  color: white;
   padding: 0 24px;
   height: 100%;
   align-items: center;
@@ -85,20 +85,20 @@ html {
 .menu-list .list-item {
   text-transform: uppercase;
   display: block;
-  height: var(--header-height);
-  line-height: var(--header-height);
+  height: 46px;
+  line-height: 46px;
   padding: 0 24px;
 }
 
 .menu-list .list-item:hover {
   cursor: pointer;
-  background-color: var(--hover-color);
-  color:  var(--primary-color);
+  background-color: #ccc;
+  color:  black;
 }
 
 .menu-list .list-item a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: white;
 }
 
 .menu-list .more {
@@ -118,8 +118,8 @@ html {
   min-width: 160px;
   padding: 0;
   margin: 0;
-  background-color: var(--secondary-color);
-  box-shadow: 0 0 15px var(--hover-color);
+  background-color: white;
+  box-shadow: 0 0 15px #ccc;
 }
 
 .sub-menu .sub-list {
@@ -127,7 +127,7 @@ html {
 
 }
 .sub-menu .sub-list a {
-  color: var(--primary-color);
+  color: black;
   padding-left: 10px;
   height: 36px;
   display: block;
@@ -136,15 +136,15 @@ html {
 }
 
 .sub-menu .sub-list:hover a {
-  background-color: var(--hover-color);
+  background-color: #ccc;
   height: 36px;
 }
 
 .menu .search {
-  color: var(--secondary-color);
+  color: white;
   margin-left:  auto;
-  height: var(--header-height);
-  line-height: var(--header-height);
+  height: 46px;
+  line-height: 46px;
 }
 
 .menu .search:hover {
@@ -158,14 +158,14 @@ html {
 }
 
 .slide .img-slide {
-  margin-top: var(--header-height);
+  margin-top: 46px;
   width: 100%;
 }
 
 .slide .slice-desc {
   text-align: center;
   position: absolute;
-  color: var(--secondary-color);
+  color: white;
   top: 80%;
   right: 50%;
   transform: translate(50%, 50%);
@@ -225,7 +225,7 @@ html {
 }
 
 .tours-date {
-  background-color: var(--primary-color);
+  background-color: black;
   color: white;
 }
 
@@ -240,9 +240,9 @@ html {
   font-size: 15px;
   line-height: 1.5;
   padding: 8px 16px;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  border-bottom: 1px solid var(--primary-color);
+  color: black;
+  background-color: white;
+  border-bottom: 1px solid black;
 }
 
 .tour-schedules .sold-out {
@@ -250,7 +250,7 @@ html {
   padding: 2px 8px;
   line-height: 1.5;
   background-color: #f44336;
-  color: var(--secondary-color);
+  color: white;
 }
 
 .tours-date .badge {
@@ -259,8 +259,8 @@ html {
   margin-left: auto;
   margin-right: 16px;
   border-radius: 50%;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: black;
+  color: white;
 }
 
 .tours-date br {
@@ -291,8 +291,8 @@ html {
 .tours-date .tour-content {
   font-size: 15px;
   padding: 16px 16px;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+  color: black;
+  background-color: white;
 }
 
 .tours-date .tour-local .detail {
@@ -310,15 +310,15 @@ html {
 
 .tours-date .buy-btn {
   padding: 11px 16px;
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
+  color: white;
+  background-color: black;
   border: none
 }
 
 .tours-date .buy-btn:hover {
   cursor: pointer;
-  color: var(--primary-color);
-  background-color: var(--hover-color);
+  color: black;
+  background-color: #ccc;
 }
 
 .information-form {
@@ -364,15 +364,15 @@ html {
   padding: 11px 16px;
   margin: 16px 0;
   margin-left: auto;
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
+  color: white;
+  background-color: black;
   border: none
 }
 
 .fan-form .submit:hover {
   cursor: pointer;
-  color: var(--primary-color);
-  background-color: var(--hover-color);
+  color: black;
+  background-color: #ccc;
 }
 
 .map .map-img {
@@ -425,7 +425,7 @@ html {
   max-width: calc(100% - 32px);
   min-height: 300px;
   box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
-  background-color: var(--secondary-color);
+  background-color: white;
   animation: modalFadeIn ease 0.3s;
 }
 
@@ -433,7 +433,7 @@ html {
   position: relative;
   padding: 45px 16px;
   text-align: center;
-  color: var(--secondary-color);
+  color: white;
   background-color: #009688;
 }
 
@@ -452,8 +452,8 @@ html {
 
 .modal-header span:hover {
   cursor: pointer;
-  background-color: var(--hover-color);
-  color: var(--primary-color)
+  background-color: #ccc;
+  color: black
 }
 
 /* Modal Body */
@@ -478,7 +478,7 @@ html {
   width: 100%;
   height: 54px;
   border: none;
-  color: var(--secondary-color);
+  color: white;
   background-color: #009688;
 }
 
@@ -492,20 +492,20 @@ html {
 .footer button {
   padding: 8px 16px;
   border: none;
-  color: var(--secondary-color);
+  color: white;
   background-color: red;
 }
 
 .footer button:hover {
   cursor: pointer;
-  background-color: var(--hover-color);
-  color: var(--primary-color);
+  background-color: #ccc;
+  color: black;
 }
 
 .modal-body .btn:hover {
   cursor: pointer;
-  background-color: var(--hover-color);
-  color: var(--primary-color);
+  background-color: #ccc;
+  color: black;
 }
 
 @keyframes modalFadeIn {
